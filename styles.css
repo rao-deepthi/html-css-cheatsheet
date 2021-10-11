@@ -1,0 +1,98 @@
+* { 
+    font-family: Verdana;
+    background-color: bisque;
+    color: #022c5fe1;
+    line-height:1.5;
+}
+
+header ul, header a{
+
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    border: 3px white; 
+    overflow: hidden;
+    justify-content: space-evenly;
+    background-color:black;
+
+
+}
+header li {
+    display: inline;
+    float: left;
+    margin: 3px solid white;
+
+}
+
+li a{
+    display: block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    color: white;
+}
+li a:hover{
+    color: #858585;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 100px;
+    text-align: center;
+    color: rgb(29, 27, 27);
+    border-bottom:5px solid black;
+
+}
+
+header nav, #HTML5tags, #HTMLTables{
+    padding-bottom: 10 px;
+    border-bottom:1px solid black;
+
+}
+
+#HTML5tags a:hover{ 
+    color: #858585;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+th{
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+    border-bottom:1px solid black;
+    font-weight: bolder;
+    text-transform: uppercase;
+
+}
+
+td{
+    padding: 12px 7px 7px 12px;
+    border: 1px solid black;
+}
+
+table tr{
+    border: 1px solid black;
+}
+
+tbody tr:nth-child(odd) td{
+    background-color: #858585;
+}
+tbody tr:nth-child(even) td{
+    background-color: rgb(207, 206, 206);
+}
+
+thead th{
+  background: linear-gradient(to bottom, rgba(5,3,5,51), rgba(5,3,5,51));
+  border: 3px solid black;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+.code{
+    font-family: 'Courier New', Courier, monospace;
+}
